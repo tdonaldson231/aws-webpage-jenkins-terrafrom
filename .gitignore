@@ -1,0 +1,36 @@
+# .gitignore for Terraform
+
+# Ignore Terraform state files and backups
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+
+# Ignore the override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore .terraform directory (which contains modules and providers)
+.terraform/
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore any plan files
+*.tfplan
+*.tfplan.*
+
+# Ignore Terraform variable override files
+*.tfvars
+*.tfvars.json
+
+# Ignore IDE or editor-specific files (if using certain IDEs)
+.idea/
+.vscode/
+
+# Ignore temporary files and directories
+*.log
